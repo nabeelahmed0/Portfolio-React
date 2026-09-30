@@ -107,7 +107,7 @@ function Hero() {
 
           <motion.img
             src="/src/assets/header.gif"
-            alt="Zulfiqar Alam"
+            alt="Nabeel Ahmed"
             animate={{
               y: [0, -12, 0],
             }}
