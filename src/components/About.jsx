@@ -19,7 +19,7 @@ function About() {
             transition={{ duration: 0.8 }}
           >
             <motion.img
-              src="/src/assets/WhatsApp Image 2026-09-30 at 5.43.55 PM.jpeg"
+              src={profile}
               alt="Nabeel Working"
               whileHover={{
                 scale: 1.03,
