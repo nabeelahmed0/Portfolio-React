@@ -16,12 +16,11 @@ export const projects = [
     description:
       " Explore a world of movies, from popular hits to hidden gems.",
     technologies: [
-      "Flutter",
-      "GetX",
+      "React",
       "Node.js",
       "Express",
-      "AWS Cognito",
-      "AWS S3",
+      "Rest API",
+      "mongoDB"
     ],
     image: movieWebsite,
     link: "#",
