@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import headerGif from "../assets/header.gif";
 
 function Hero() {
   return (
@@ -106,7 +107,7 @@ function Hero() {
           />
 
           <motion.img
-            src="/src/assets/header.gif"
+            src={headerGif}
             alt="Nabeel Ahmed"
             animate={{
               y: [0, -12, 0],

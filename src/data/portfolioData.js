@@ -1,3 +1,7 @@
+import movieWebsite from "../assets/movie-website2.jpg";
+import appImage from "../assets/app1.webp";
+import maintenanceImage from "../assets/Maintenance.jpg";
+
 export const skills = {
   FrontEnd: ["React.js", "Node.js", "JavaScript", "Next.js ", "Tailwind CSS:"],
 
@@ -19,7 +23,7 @@ export const projects = [
       "AWS Cognito",
       "AWS S3",
     ],
-    image: "/src/assets/movie-website2.jpg",
+    image: movieWebsite,
     link: "#",
   },
   {
@@ -27,7 +31,7 @@ export const projects = [
     description:
       "An Full Stack e-commerce application featuring product management, secure payments and real-time inventory.",
     technologies: ["React", "Node.js", "Express", "FastAPI", "MongoDB"],
-    image: "/src/assets/app1.webp",
+    image: appImage,
     link: "#",
   },
   {
@@ -35,7 +39,7 @@ export const projects = [
     description:
       "A smart platform that uses AI and QR codes to simplify asset maintenance, track service history, manage inspections, and provide quick access to equipment records.",
     technologies: ["React", "Node.js", "Express", "FastAPI", "MongoDB"],
-    image: "/src/assets/Maintenance.jpg",
+    image: maintenanceImage,
     link: "#",
   },
 ];
@@ -47,7 +51,7 @@ export const posts = [
     readTime: "5 min read",
     title: "From Zero to MERN Stack: My Journey and Key Takeaways",
     description:
-      "One of the most exciting parts of my journey was building full-stack applications. My first project was building a simple login functionality. ",
+      "One of the most exciting parts of my journey was building full-stack applications. My first project was building a simple login functionality.",
   },
   {
     date: "10 Jul",
@@ -55,7 +59,7 @@ export const posts = [
     readTime: "7 min read",
     title: "Taking the terminal seriously in the age of AI coding agents",
     description:
-      "In the age of AI coding agents, mastering the command-line terminal is more critical than ever for developers. ",
+      "In the age of AI coding agents, mastering the command-line terminal is more critical than ever for developers.",
   },
   {
     date: "05 Jul",
